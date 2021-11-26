@@ -264,6 +264,9 @@
 		9667ECB226A82D150098C7F2 /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667EAC226A829460098C7F2 /* StatsShareManager.swift */; };
 		9667ECB326A82D3B0098C7F2 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667EAB826A829460098C7F2 /* Stats.swift */; };
 		9667ECB526A84B890098C7F2 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 9667ECB426A84B890098C7F2 /* Onboarding.Chart.json */; };
+		96AD351D2750C44C0098D472 /* SetSelectCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD351C2750C44C0098D472 /* SetSelectCourseRequest.swift */; };
+		96AD35202750C4780098D472 /* GetSelectedCourseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD351F2750C4780098D472 /* GetSelectedCourseResponse.swift */; };
+		96AD35222750C48B0098D472 /* GetSelectedCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD35212750C48B0098D472 /* GetSelectedCourseRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -550,6 +553,9 @@
 		9667ECA126A82B9C0098C7F2 /* Cosmetology.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cosmetology.entitlements; sourceTree = "<group>"; };
 		9667ECA226A82BC10098C7F2 /* StatsWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		9667ECB426A84B890098C7F2 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
+		96AD351C2750C44C0098D472 /* SetSelectCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSelectCourseRequest.swift; sourceTree = "<group>"; };
+		96AD351F2750C4780098D472 /* GetSelectedCourseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseResponse.swift; sourceTree = "<group>"; };
+		96AD35212750C48B0098D472 /* GetSelectedCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseRequest.swift; sourceTree = "<group>"; };
 		A0EDA2E550AC9420104DC6B9 /* Pods-Cosmetology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cosmetology.release.xcconfig"; path = "Target Support Files/Pods-Cosmetology/Pods-Cosmetology.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -906,6 +912,8 @@
 		9667EA9C26A829460098C7F2 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				96AD351E2750C4680098D472 /* GetSelectedCourse */,
+				96AD351B2750C43E0098D472 /* SetSelectCourse */,
 				9667EA9D26A829460098C7F2 /* GetCourcesRequest.swift */,
 				9667EA9E26A829460098C7F2 /* GetReferences */,
 				9667EAA126A829460098C7F2 /* GetCourcesResponseMapper.swift */,
@@ -1607,6 +1615,23 @@
 			path = Widgets;
 			sourceTree = "<group>";
 		};
+		96AD351B2750C43E0098D472 /* SetSelectCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD351C2750C44C0098D472 /* SetSelectCourseRequest.swift */,
+			);
+			path = SetSelectCourse;
+			sourceTree = "<group>";
+		};
+		96AD351E2750C4680098D472 /* GetSelectedCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD351F2750C4780098D472 /* GetSelectedCourseResponse.swift */,
+				96AD35212750C48B0098D472 /* GetSelectedCourseRequest.swift */,
+			);
+			path = GetSelectedCourse;
+			sourceTree = "<group>";
+		};
 		ED92EBBFC47C1C9C8D8E19BC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1856,6 +1881,7 @@
 				9667EB9526A829480098C7F2 /* PaygateManagerCore.swift in Sources */,
 				9667EC5726A829490098C7F2 /* OSlideTimeView.swift in Sources */,
 				9667EBCB26A829480098C7F2 /* GetBriefRequest.swift in Sources */,
+				96AD35202750C4780098D472 /* GetSelectedCourseResponse.swift in Sources */,
 				9667EBE326A829480098C7F2 /* SplashViewModel.swift in Sources */,
 				9667EC4626A829490098C7F2 /* WelcomeSlide3View.swift in Sources */,
 				9667EC1326A829490098C7F2 /* PaygateOptionView.swift in Sources */,
@@ -1944,6 +1970,7 @@
 				9667EBA726A829480098C7F2 /* TestStatsManager.swift in Sources */,
 				9667EB7C26A829470098C7F2 /* StringExtension.swift in Sources */,
 				9667EC2026A829490098C7F2 /* TestStatsProgressView.swift in Sources */,
+				96AD35222750C48B0098D472 /* GetSelectedCourseRequest.swift in Sources */,
 				9667EBB826A829480098C7F2 /* Reference.swift in Sources */,
 				9667EBE926A829480098C7F2 /* SCTakeTestCell.swift in Sources */,
 				9667EB8B26A829480098C7F2 /* PaddingPickerView.swift in Sources */,
@@ -2030,6 +2057,7 @@
 				9667EC4726A829490098C7F2 /* WelcomeSlide2View.swift in Sources */,
 				9667EB7D26A829470098C7F2 /* GlobalDefinitions.swift in Sources */,
 				9667EC1826A829490098C7F2 /* TestStatsAnswerCell.swift in Sources */,
+				96AD351D2750C44C0098D472 /* SetSelectCourseRequest.swift in Sources */,
 				9667EBE126A829480098C7F2 /* SettingsViewController.swift in Sources */,
 				9667EC4B26A829490098C7F2 /* OSlideReferencesView.swift in Sources */,
 			);
@@ -2195,7 +2223,7 @@
 				CODE_SIGN_ENTITLEMENTS = Cosmetology/Cosmetology.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Cosmetology/Resource/Info.plist";
@@ -2204,7 +2232,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology Development Profile";
@@ -2224,7 +2252,7 @@
 				CODE_SIGN_ENTITLEMENTS = Cosmetology/Cosmetology.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Cosmetology/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2232,7 +2260,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology AppStore";
@@ -2250,7 +2278,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2259,7 +2287,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology.stats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology Stats Widgets Development";
@@ -2277,7 +2305,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2286,7 +2314,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology.stats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology Stats Widgets AppStore";
