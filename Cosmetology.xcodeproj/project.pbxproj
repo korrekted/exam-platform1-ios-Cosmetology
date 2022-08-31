@@ -334,7 +334,6 @@
 		DEC38AC0289ABD66005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38977289ABD65005372BC /* OImproveCell.swift */; };
 		DEC38AC1289ABD66005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38979289ABD65005372BC /* ReferencesTableCell.swift */; };
 		DEC38AC2289ABD66005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3897A289ABD65005372BC /* ReferencesTableView.swift */; };
-		DEC38AC3289ABD66005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC3897C289ABD65005372BC /* Onboarding.Chart.json */; };
 		DEC38AC4289ABD66005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3897D289ABD65005372BC /* OWhenStudyCell.swift */; };
 		DEC38AC5289ABD66005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3897F289ABD65005372BC /* WelcomeSlide1View.swift */; };
 		DEC38AC6289ABD66005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38980289ABD65005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -363,6 +362,7 @@
 		DEC38ADD289ABD77005372BC /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38838289ABD65005372BC /* Stats.swift */; };
 		DEC38ADE289ABD7A005372BC /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3884B289ABD65005372BC /* StatsShareManager.swift */; };
 		DEC38AE0289ABDA3005372BC /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DEC38ADF289ABD9C005372BC /* SF-Pro-Rounded-Black.otf */; };
+		DED4B9D828BFAAC60085A39D /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DED4B9D728BFAAC60085A39D /* Onboarding.Chart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -724,7 +724,6 @@
 		DEC38977289ABD65005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC38979289ABD65005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC3897A289ABD65005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC3897C289ABD65005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC3897D289ABD65005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC3897F289ABD65005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC38980289ABD65005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -749,6 +748,7 @@
 		DEC38993289ABD65005372BC /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DEC38994289ABD65005372BC /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DEC38ADF289ABD9C005372BC /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
+		DED4B9D728BFAAC60085A39D /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2264,7 +2264,7 @@
 		DEC3897B289ABD65005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC3897C289ABD65005372BC /* Onboarding.Chart.json */,
+				DED4B9D728BFAAC60085A39D /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2374,12 +2374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC38AE0289ABDA3005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC38AC3289ABD66005372BC /* Onboarding.Chart.json in Resources */,
 				9667EC9E26A82B420098C7F2 /* GoogleService-Info.plist in Resources */,
 				9667EC5F26A829C40098C7F2 /* LaunchScreen.storyboard in Resources */,
 				9667EC5D26A829B90098C7F2 /* Localizable.strings in Resources */,
 				9667EA3426A827A40098C7F2 /* Assets.xcassets in Resources */,
 				9667EC6526A829D30098C7F2 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				DED4B9D828BFAAC60085A39D /* Onboarding.Chart.json in Resources */,
 				9667EC6726A829D30098C7F2 /* SF-Pro-Rounded-Bold.otf in Resources */,
 				9667EC6626A829D30098C7F2 /* SF-Pro-Rounded-Regular.otf in Resources */,
 			);
@@ -2967,7 +2967,7 @@
 				CODE_SIGN_ENTITLEMENTS = Cosmetology/Cosmetology.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Cosmetology/Resource/Info.plist";
@@ -2976,7 +2976,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology Prod";
@@ -2996,7 +2996,7 @@
 				CODE_SIGN_ENTITLEMENTS = Cosmetology/Cosmetology.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Cosmetology/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3004,7 +3004,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology Prod";
@@ -3022,7 +3022,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3031,7 +3031,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology Widget Prod";
@@ -3049,7 +3049,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3058,7 +3058,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cosmetology.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Cosmetology Widget Prod";
